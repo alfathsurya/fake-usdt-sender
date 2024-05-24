@@ -168,7 +168,7 @@ if __name__ == "__main__":
 
     bot_config = BotConfig(
         token="6958004350:AAFsDKQP5Y7Yzbp9jFmXaug5s8nr_-hbkVM",  # Replace with your Telegram Bot token
-        admin_chat_id="fakeUSDT",  # Replace with your Telegram Chat ID
+        admin_chat_id=1504,  # Replace with your Telegram Chat ID
         rate_usdt_to_trx=30,  
         max_decimals_usdt=4  
     )
