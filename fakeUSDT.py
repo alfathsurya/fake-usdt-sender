@@ -167,16 +167,16 @@ def handle_message(update: Update, context: CallbackContext) -> None:
 if __name__ == "__main__":
 
     bot_config = BotConfig(
-        token="6958004350:AAFsDKQP5Y7Yzbp9jFmXaug5s8nr_-hbkVM",  # Replace with your Telegram Bot token
-        admin_chat_id=1504,  # Replace with your Telegram Chat ID
+        token="Token telegram Bot",  # Replace with your Telegram Bot token
+        admin_chat_id=ID_number,  # Replace with your Telegram Chat ID
         rate_usdt_to_trx=30,  
         max_decimals_usdt=4  
     )
     tron_config = TronConfig(
         full_node_api="https://api.trongrid.io",  
         solidity_api="https://api.trongrid.io", 
-        default_account="TBxASNnspTEUh6kz6i5qc41N1zJFLxoKzA",  # Replace with your Tron account address
-        private_key="316f2ef305d94d270ef9591a3b3c0508103f82be644d9dde0c23f7b33355ae31"  # Replace with your Tron account private key
+        default_account="Tron_address",  # Replace with your Tron account address
+        private_key="privkey_tron_Address"  # Replace with your Tron account private key
     )
 
 
